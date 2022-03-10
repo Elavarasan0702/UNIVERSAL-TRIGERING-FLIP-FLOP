@@ -93,7 +93,20 @@ endmodule
 ```
 ## Observations
 ##Integrator output
-![image](https://github.com/Ganapathi28/4-bit-Johnson-Counter-with-ring-oscillator/blob/main/Simulation%20Results/Final%20Output.jpg)
+![image](https://github.com/Elavarasan0702/UNIVERSAL-TRIGERING-FLIP-FLOP/blob/main/ref_diagram/integrate.JPG)
+
+##INPUT PULSE 
+![image](https://github.com/Elavarasan0702/UNIVERSAL-TRIGERING-FLIP-FLOP/blob/main/ref_diagram/pulse_in.JPG)
+
+##LEVEL TRIGGERING 
+![image](https://github.com/Elavarasan0702/UNIVERSAL-TRIGERING-FLIP-FLOP/blob/main/ref_diagram/level_out.JPG)
+
+##NEGATIVE TRIGGERING
+![image](https://github.com/Elavarasan0702/UNIVERSAL-TRIGERING-FLIP-FLOP/blob/main/ref_diagram/neg_edge%20out.JPG)
+
+
+
+
 
 ## Steps to run generate NgVeri Model
 1. Open eSim
