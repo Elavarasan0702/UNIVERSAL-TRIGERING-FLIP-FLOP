@@ -95,13 +95,13 @@ endmodule
 ## Integrator output
 ![image](https://github.com/Elavarasan0702/UNIVERSAL-TRIGERING-FLIP-FLOP/blob/main/ref_diagram/integrate.JPG)
 
-## INPUT PULSE 
+## INPUT PULSE OUTPUT
 ![image](https://github.com/Elavarasan0702/UNIVERSAL-TRIGERING-FLIP-FLOP/blob/main/ref_diagram/pulse_in.JPG)
 
-## LEVEL TRIGGERING 
+## LEVEL TRIGGERING OUTPUT
 ![image](https://github.com/Elavarasan0702/UNIVERSAL-TRIGERING-FLIP-FLOP/blob/main/ref_diagram/level_out.JPG)
 
-## NEGATIVE TRIGGERING
+## NEGATIVE TRIGGERING OUTPUT
 ![image](https://github.com/Elavarasan0702/UNIVERSAL-TRIGERING-FLIP-FLOP/blob/main/ref_diagram/neg_edge%20out.JPG)
 
 
