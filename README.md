@@ -92,7 +92,10 @@ endmodule
 
 ```
 ## Observations
-## Integrator output
+## INPUT PULSE
+![image](https://github.com/Elavarasan0702/UNIVERSAL-TRIGERING-FLIP-FLOP/blob/main/din.JPG)
+
+## INTEGRATOR OUTPUT
 ![image](https://github.com/Elavarasan0702/UNIVERSAL-TRIGERING-FLIP-FLOP/blob/main/ref_diagram/integrate.JPG)
 
 ## INPUT PULSE OUTPUT
