@@ -92,6 +92,7 @@ endmodule
 
 ```
 ## Observations
+##Integrator output
 ![image](https://github.com/Ganapathi28/4-bit-Johnson-Counter-with-ring-oscillator/blob/main/Simulation%20Results/Final%20Output.jpg)
 
 ## Steps to run generate NgVeri Model
