@@ -23,9 +23,9 @@ The circuitry presented here support universal triggering which means that it ca
 
 ## Reference Circuit Diagram
 ![image](https://github.com/Elavarasan0702/UNIVERSAL-TRIGERING-FLIP-FLOP/blob/main/ref_diagram/ref_cir.jpeg)
-![image](https://github.com/Ganapathi28/4-bit-Johnson-Counter-with-ring-oscillator/blob/main/Reference%20Diagram/Johnson%20counter.png)
+
 ## Reference Waveform
-![image](https://github.com/Ganapathi28/4-bit-Johnson-Counter-with-ring-oscillator/blob/main/Reference%20Diagram/Output%20Graph.jpg)
+![image](https://github.com/Elavarasan0702/UNIVERSAL-TRIGERING-FLIP-FLOP/blob/main/ref_diagram/ref_wave.jpeg)
 
 ## Software Used
 ### eSim
