@@ -1,0 +1,38 @@
+* /home/elavarasanp002/eSim-Workspace/universal_trig_flipflop/universal_trig_flipflop.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Thu 10 Mar 2022 12:56:12 PM UTC
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U6  pos_edg pos adc_bridge_1		
+U8  neg_edge neg adc_bridge_1		
+C2  integrat pulse_in 1u		
+C1  Net-_C1-Pad1_ pulse_in 1u		
+R1  integrat GND 1k		
+R2  Net-_C1-Pad1_ GND 1k		
+D1  integrat pos_edg eSim_Diode		
+D2  neg_edge Net-_C1-Pad1_ eSim_Diode		
+R3  pos_edg GND 1k		
+R4  neg_edge GND 1k		
+U7  pulse_in Net-_U4-Pad1_ adc_bridge_1		
+U1  integrat plot_v1		
+U2  pos_edg plot_v1		
+U5  neg_edge plot_v1		
+U12  Q plot_v1		
+U3  pulse_in plot_v1		
+v1  pulse_in GND pulse		
+U10  s0 s1 Net-_U10-Pad3_ Net-_U10-Pad4_ adc_bridge_2		
+v2  s0 GND pulse		
+v3  s1 GND pulse		
+v4  din GND pulse		
+v5  rst GND pulse		
+U13  GND Net-_U13-Pad2_ adc_bridge_1		
+U14  din rst Net-_U14-Pad3_ Net-_U14-Pad4_ adc_bridge_2		
+U11  Net-_U11-Pad1_ Net-_U11-Pad2_ Q Q_bar dac_bridge_2		
+U16  Q_bar plot_v1		
+U4  Net-_U4-Pad1_ pos neg Net-_U13-Pad2_ Net-_U10-Pad3_ Net-_U10-Pad4_ mclk elavarasanp002_4x1_mux		
+U9  Net-_U14-Pad3_ mclk Net-_U14-Pad4_ Net-_U11-Pad1_ Net-_U11-Pad2_ elavarasanp002_dff		
+
+.end

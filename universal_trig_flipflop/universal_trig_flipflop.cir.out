@@ -1,0 +1,73 @@
+* /home/elavarasanp002/esim-workspace/universal_trig_flipflop/universal_trig_flipflop.cir
+
+.include D.lib
+* u6  pos_edg pos adc_bridge_1
+* u8  neg_edge neg adc_bridge_1
+c2  integrat pulse_in 1u
+c1  net-_c1-pad1_ pulse_in 1u
+r1  integrat gnd 1k
+r2  net-_c1-pad1_ gnd 1k
+d1 integrat pos_edg 1N4148
+d2 neg_edge net-_c1-pad1_ 1N4148
+r3  pos_edg gnd 1k
+r4  neg_edge gnd 1k
+* u7  pulse_in net-_u4-pad1_ adc_bridge_1
+* u1  integrat plot_v1
+* u2  pos_edg plot_v1
+* u5  neg_edge plot_v1
+* u12  q plot_v1
+* u3  pulse_in plot_v1
+v1  pulse_in gnd pulse(0 5 0 0 0 2m 4m)
+* u10  s0 s1 net-_u10-pad3_ net-_u10-pad4_ adc_bridge_2
+v2  s0 gnd pulse(0 5 0 0 0 40m 40m)
+v3  s1 gnd pulse(0 0 0 0 0 40m 40m)
+v4  din gnd pulse(0 5 0.3m 0 0 1m 2m)
+v5  rst gnd pulse(5 0 3m 0 0 40m 40m)
+* u13  gnd net-_u13-pad2_ adc_bridge_1
+* u14  din rst net-_u14-pad3_ net-_u14-pad4_ adc_bridge_2
+* u11  net-_u11-pad1_ net-_u11-pad2_ q q_bar dac_bridge_2
+* u16  q_bar plot_v1
+* u4  net-_u4-pad1_ pos neg net-_u13-pad2_ net-_u10-pad3_ net-_u10-pad4_ mclk elavarasanp002_4x1_mux
+* u9  net-_u14-pad3_ mclk net-_u14-pad4_ net-_u11-pad1_ net-_u11-pad2_ elavarasanp002_dff
+a1 [pos_edg ] [pos ] u6
+a2 [neg_edge ] [neg ] u8
+a3 [pulse_in ] [net-_u4-pad1_ ] u7
+a4 [s0 s1 ] [net-_u10-pad3_ net-_u10-pad4_ ] u10
+a5 [gnd ] [net-_u13-pad2_ ] u13
+a6 [din rst ] [net-_u14-pad3_ net-_u14-pad4_ ] u14
+a7 [net-_u11-pad1_ net-_u11-pad2_ ] [q q_bar ] u11
+a8 [net-_u4-pad1_ ] [pos ] [neg ] [net-_u13-pad2_ ] [net-_u10-pad3_ ] [net-_u10-pad4_ ] [mclk ] u4
+a9 [net-_u14-pad3_ ] [mclk ] [net-_u14-pad4_ ] [net-_u11-pad1_ ] [net-_u11-pad2_ ] u9
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u6 adc_bridge(in_low=0.5 in_high=0.5 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u8 adc_bridge(in_low=-0.5 in_high=-0.5 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u7 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_2, NgSpice Name: adc_bridge
+.model u10 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_1, NgSpice Name: adc_bridge
+.model u13 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             adc_bridge_2, NgSpice Name: adc_bridge
+.model u14 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_2, NgSpice Name: dac_bridge
+.model u11 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+* Schematic Name:                             elavarasanp002_4x1_mux, NgSpice Name: elavarasanp002_4x1_mux
+.model u4 elavarasanp002_4x1_mux(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             elavarasanp002_dff, NgSpice Name: elavarasanp002_dff
+.model u9 elavarasanp002_dff(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+.tran 0.01e-03 40e-03 0e-03
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(integrat)
+plot v(pos_edg)
+plot v(neg_edge)
+plot v(q)
+plot v(pulse_in)
+plot v(q_bar)
+.endc
+.end

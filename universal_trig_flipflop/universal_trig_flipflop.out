@@ -1,0 +1,6347 @@
+
+No compatibility mode selected!
+
+
+Circuit: * /home/elavarasanp002/esim-workspace/universal_trig_flipflop/universal_trig_flipflop.cir
+
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v5: no DC value, transient time 0 value used
+Warning: v4: no DC value, transient time 0 value used
+Warning: v3: no DC value, transient time 0 value used
+Warning: v2: no DC value, transient time 0 value used
+Warning: v1: no DC value, transient time 0 value used
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=0
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=0
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=0
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=0
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=0
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=1
+Q=0
+Qbar=1
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+integrat                           4.98735e-54
+pulse_in                                     0
+net-_c1-pad1_                     -4.98755e-54
+pos_edg                           -4.98735e-54
+neg_edge                           4.98755e-54
+s0                                           0
+s1                                           0
+din                                          0
+rst                                          5
+gnd                                          0
+q                                            0
+q_bar                                        5
+v5#branch                                    0
+v4#branch                                    0
+v3#branch                                    0
+v2#branch                                    0
+v1#branch                                    0
+a7#branch_1_0                                0
+a7#branch_1_1                                0
+
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=0
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=1
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=0
+Clk=1
+Reset=1
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=1
+Reset=1
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=1
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=1
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=1
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=1
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 0
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+No. of Data Rows : 5040
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+binary raw file "/home/elavarasanp002/eSim-Workspace/universal_trig_flipflop/universal_trig_flipflop.raw"
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v5: no DC value, transient time 0 value used
+Warning: v4: no DC value, transient time 0 value used
+Warning: v3: no DC value, transient time 0 value used
+Warning: v2: no DC value, transient time 0 value used
+Warning: v1: no DC value, transient time 0 value used
+No. of Data Columns : 20     
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=0
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=0
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=0
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=0
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=0
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=1
+Q=0
+Qbar=1
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+integrat                           4.98735e-54
+pulse_in                                     0
+net-_c1-pad1_                     -4.98755e-54
+pos_edg                           -4.98735e-54
+neg_edge                           4.98755e-54
+s0                                           0
+s1                                           0
+din                                          0
+rst                                          5
+gnd                                          0
+q                                            0
+q_bar                                        5
+v5#branch                                    0
+v4#branch                                    0
+v3#branch                                    0
+v2#branch                                    0
+v1#branch                                    0
+a7#branch_1_0                                0
+a7#branch_1_1                                0
+
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=0
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=1
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=0
+Clk=1
+Reset=1
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=1
+Reset=1
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=1
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=1
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=1
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=1
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=1
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=1
+Reset=0
+Q=0
+Qbar=1
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=1
+c=1
+d=0
+s0=1
+s1=0
+out=1
+
+Inside foo after eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=1
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=1
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_4x1_mux : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+a=0
+b=0
+c=0
+d=0
+s0=1
+s1=0
+out=0
+
+Inside foo after eval.....
+a=0
+b=0
+c=1
+d=0
+s0=1
+s1=0
+out=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+=============elavarasanp002_dff : New Iteration===========
+Instance : 1
+
+Inside foo before eval.....
+D=1
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+Inside foo after eval.....
+D=0
+Clk=0
+Reset=0
+Q=1
+Qbar=0
+
+No. of Data Rows : 5040
+
+Total analysis time (seconds) = 0.240119
+
+Total CPU time (seconds) = 0.428 
+
+Total DRAM available = 257855.305 MB.
+DRAM currently available = 227438.613 MB.
+Maximum ngspice program size =   95.109 MB.
+Current ngspice program size =   17.590 MB.
+
+Shared ngspice pages =    9.641 MB.
+Text (code) pages =    6.285 MB.
+Stack = 0 bytes.
+Library pages =    8.633 MB.
+
