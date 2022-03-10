@@ -74,29 +74,22 @@ The following is the schematic in eSim:
 
 ```
 `include "johnson.v"
-### Counter
-module johnson( out,reset,clk);
-input clk,reset;
-output [3:0] out;
- 
-reg [3:0] q;
- 
-always @(posedge clk)
-begin
- 
-if(reset)
- q<=4'd0;
- else
- 	begin 
- 		q[3]<=q[2];
-  		q[2]<=q[1];
-  		q[1]<=q[0];
-   		q[0]<=(~q[3]);
- 	end
- end
- 
-assign out=q;  
+### MULTIPLEXER
+module elavarasanp002_mux(a,b,c,d,s0,s1,out);
+input wire a,b,c,d;
+input wire s0,s1;
+assign out=s1 ?(s0?d:c):(s0?b;a);
 endmodule
+
+###D FLIP FLOP
+module elavarasanp002_dff(Q,Qbar,D,Clk,Reset);
+output reg Q;
+output reg Qbar;
+input D,Clk,Reset;
+assign Qbar = ~Q
+assign Q=Clk ? D:Q;
+endmodule
+
 ```
 ## Observations
 ![image](https://github.com/Ganapathi28/4-bit-Johnson-Counter-with-ring-oscillator/blob/main/Simulation%20Results/Final%20Output.jpg)
