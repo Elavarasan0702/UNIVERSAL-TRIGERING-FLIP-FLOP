@@ -22,7 +22,7 @@ This repository presents the design of universal triggering flip flop as mixed s
 The circuitry presented here support universal triggering which means that it can be used as both level trigger and edge trigger(postive and negative edge trigger).The main clock pulse is passed through the integrator to detect the edges then it is converted to digital pulse.Finally,we get pulse with reduced duty cycle near to the both edges.a In order to obtain level triggering, main clock pulse is directly connected to multiplexer.By choosing multiplexer select line ,we can select the type of triggering.In this presentation,we show the D flip flop's output while all type of triggering scenarios.
 
 ## Reference Circuit Diagram
-![image](https://github.com/Elavarasan0702/UNIVERSAL-TRIGERING-FLIP-FLOP/blob/main/Reference%20Diagram/CMOS%20Ring%20oscillator.png)
+![image](https://github.com/Elavarasan0702/UNIVERSAL-TRIGERING-FLIP-FLOP/blob/main/ref_diagram/ref_cir.jpeg)
 ![image](https://github.com/Ganapathi28/4-bit-Johnson-Counter-with-ring-oscillator/blob/main/Reference%20Diagram/Johnson%20counter.png)
 ## Reference Waveform
 ![image](https://github.com/Ganapathi28/4-bit-Johnson-Counter-with-ring-oscillator/blob/main/Reference%20Diagram/Output%20Graph.jpg)
