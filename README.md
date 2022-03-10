@@ -67,13 +67,13 @@ https://www.veripool.org/verilator/
 
 ## Circuit Diagram in eSim
 The following is the schematic in eSim:
-![image](https://github.com/Ganapathi28/4-bit-Johnson-Counter-with-ring-oscillator/blob/main/Simulation%20Results/circuitdiagram.jpg)
+![image](https://github.com/Elavarasan0702/UNIVERSAL-TRIGERING-FLIP-FLOP/blob/main/circuit.png)
 
 ## Verilog Code
 ### Counter
 
 ```
-`include "johnson.v"
+
 ### MULTIPLEXER
 module elavarasanp002_mux(a,b,c,d,s0,s1,out);
 input wire a,b,c,d;
@@ -86,7 +86,7 @@ module elavarasanp002_dff(Q,Qbar,D,Clk,Reset);
 output reg Q;
 output reg Qbar;
 input D,Clk,Reset;
-assign Qbar = ~Q
+assign Qbar = ~Q;
 assign Q=Clk ? D:Q;
 endmodule
 
